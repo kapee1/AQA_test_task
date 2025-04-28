@@ -1,6 +1,5 @@
 from selenium.webdriver.common.by import By
 
-
 class Locators:
     name_fill = By.XPATH, './/input[@placeholder="Your Name"]'
     email_fill = By.XPATH, './/input[@placeholder="Your Email"]'
